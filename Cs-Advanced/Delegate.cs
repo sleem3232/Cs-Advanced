@@ -30,7 +30,10 @@ namespace Cs_Advanced
         public int tax(int price,CalcFunc func)
         {
             return (func(price, 20));
+      
+
         }
+
         public int calc1(int a,int b)
         { return a + b; }
         public int calc2(int a, int b)
