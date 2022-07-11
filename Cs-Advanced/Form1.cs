@@ -31,5 +31,12 @@ namespace Cs_Advanced
             delegat.run();
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Event events= new Event();
+            opeate opeate= new opeate();
+            opeate.Init();
+        }
     }
 }
