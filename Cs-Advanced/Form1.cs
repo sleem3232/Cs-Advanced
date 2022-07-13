@@ -38,5 +38,29 @@ namespace Cs_Advanced
             opeate opeate= new opeate();
             opeate.Init();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Foreach foreacha= new Foreach();
+            foreacha.RunMyItems();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Stract stract= new Stract();
+           stract.run();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            PartialClass partialClass= new PartialClass();
+            partialClass.run();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            RefVal refVal= new RefVal();
+            refVal.run();
+        }
     }
 }
