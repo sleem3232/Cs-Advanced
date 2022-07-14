@@ -62,5 +62,36 @@ namespace Cs_Advanced
             RefVal refVal= new RefVal();
             refVal.run();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Utilites utilites= new Utilites();
+            ExtensionMethod extensionMethod= new ExtensionMethod();
+            extensionMethod.run();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Check check= new Check();
+            check.run();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            is_as is_as = new is_as();
+            is_as.run();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            idispose idispose= new idispose();
+            idispose.run();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Generices generices = new Generices();  
+            generices.run();
+        }
     }
 }
